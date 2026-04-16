@@ -1,77 +1,107 @@
-Supervised Learning (Classification)
-📌 Deskripsi Project
+# Supervised Learning (Classification)
 
-Project ini merupakan bagian dari pembelajaran Machine Learning pada minggu ke-5, yang berfokus pada Supervised Learning – Classification menggunakan dataset Titanic.
+## 📌 Deskripsi Project
 
-Dataset Titanic digunakan untuk memprediksi apakah seorang penumpang selamat atau tidak berdasarkan fitur-fitur seperti usia, jenis kelamin, kelas tiket, dan lainnya. Dataset ini merupakan salah satu dataset klasik dalam pembelajaran machine learning dan sering digunakan sebagai studi kasus klasifikasi. ()
+Project ini merupakan implementasi **Supervised Learning (Classification)** menggunakan dataset *Titanic*.
 
-🎯 Tujuan
-Memahami konsep dasar Supervised Learning
-Menerapkan algoritma klasifikasi
-Melakukan preprocessing data
-Melatih model machine learning
-Melakukan prediksi terhadap data baru
-📂 Dataset
+Tujuan utama dari project ini adalah untuk memprediksi apakah seorang penumpang **selamat atau tidak** berdasarkan beberapa fitur seperti usia, jenis kelamin, kelas penumpang, dan lainnya.
 
-Dataset yang digunakan adalah Titanic Dataset, yang memiliki beberapa fitur utama:
+Project ini dibuat sebagai bagian dari pembelajaran Machine Learning pada pertemuan **WEEK 5**.
 
-Pclass → kelas penumpang
-Sex → jenis kelamin
-Age → usia
-SibSp → jumlah saudara/pasangan
-Parch → jumlah orang tua/anak
-Fare → harga tiket
-Embarked → pelabuhan keberangkatan
-Survived → target (0 = tidak selamat, 1 = selamat)
-⚙️ Library yang Digunakan
-Python
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-🔍 Tahapan Pengerjaan
-1. Data Loading
+---
 
-Membaca dataset menggunakan pandas
+## 📂 Struktur File
 
-2. Data Cleaning
-Mengatasi missing value
-Menghapus kolom yang tidak diperlukan
-3. Exploratory Data Analysis (EDA)
-Visualisasi data
-Analisis hubungan antar fitur
-4. Feature Engineering
-Encoding data kategorikal
-Transformasi fitur
-5. Model Training
+* `Supervised_Learning_Hands_On_Classification.ipynb` → Notebook utama berisi proses analisis dan modeling
+* `titanic.csv` → Dataset yang digunakan
+* `Classification.pdf` → Materi pembelajaran terkait classification (jika ada)
 
-Menggunakan algoritma klasifikasi seperti:
+---
 
-K-Nearest Neighbors (KNN)
-Logistic Regression (opsional)
-6. Evaluasi Model
-Accuracy
-Confusion Matrix
-7. Prediksi
+## ⚙️ Tools & Library
 
-Melakukan prediksi terhadap data baru menggunakan model terbaik
+Project ini menggunakan:
 
-📊 Hasil
+* Python
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
 
-Model berhasil digunakan untuk memprediksi apakah penumpang selamat atau tidak berdasarkan fitur yang tersedia.
+---
 
-▶️ Cara Menjalankan
-Clone repository:
-git clone https://github.com/roni-gm/Machine-Learning.git
-Masuk ke folder WEEK5:
-cd WEEK5
-Jalankan file notebook:
-jupyter notebook
-📌 Catatan
+## 🔍 Tahapan Pengerjaan
 
-Project ini bertujuan sebagai latihan dasar dalam memahami konsep klasifikasi pada machine learning dan implementasinya menggunakan Python.
+1. Import dataset menggunakan pandas
+2. Exploratory Data Analysis (EDA)
+3. Data preprocessing (handling missing values, encoding)
+4. Split data (training & testing)
+5. Training model classification (KNN, dll)
+6. Evaluasi model
+7. Prediksi data baru
 
-👨‍💻 Author
+---
+
+## 📊 Dataset
+
+Dataset yang digunakan adalah **Titanic Dataset** yang berisi informasi:
+
+* Pclass → kelas penumpang
+* Sex → jenis kelamin
+* Age → usia
+* SibSp → jumlah saudara/pasangan
+* Parch → jumlah orang tua/anak
+* Fare → harga tiket
+* Embarked → pelabuhan keberangkatan
+* Survived → target (0 = tidak selamat, 1 = selamat)
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. Clone repository:
+
+   ```
+   git clone https://github.com/roni-gm/Machine-Learning.git
+   ```
+
+2. Masuk ke folder WEEK5:
+
+   ```
+   cd WEEK5
+   ```
+
+3. Jalankan Jupyter Notebook:
+
+   ```
+   jupyter notebook
+   ```
+
+4. Buka file:
+
+   ```
+   Supervised_Learning_Hands_On_Classification.ipynb
+   ```
+
+---
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami konsep dasar classification
+* Menerapkan machine learning menggunakan Python
+* Melakukan preprocessing dan analisis data
+* Melatih model dan melakukan evaluasi
+* Melakukan prediksi menggunakan model
+
+---
+
+## 👤 Author
 
 Roni Gunawan Muhammad
+
+---
+
+## 📌 Catatan
+
+Project ini dibuat untuk tujuan pembelajaran dan pengembangan skill di bidang Machine Learning, khususnya pada metode classification.
